@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+</head>
+<body>
+    <button style="background-color: #4CAF50; color: white;  cursor: pointer;" onclick="window.location.href='index.html'">Home</button>
+    <button style="background-color: #4CAF50; color: white; cursor: pointer;" onclick="window.location.href='registration.html'">Registration</button>
+    <button style="background-color: #4CAF50; color: white; cursor: pointer;" onclick="window.location.href='events.html'">Events</button>
+    <button style="background-color: #2016da; color: white; cursor: pointer;" onclick="changeHeading()">Change Heading</button>
+
+    <h1>Welcome to XYZ College Website</h1>
+    
+    <hr>
+    <p>Welcome to our college website! We are excited to have you here.</p>
+    <p> Here we offer a wide range of programs and opportunities.<br> 
+     A college is a post-secondary educational institution where students pursue undergraduate degrees, diplomas,<br> or specialized technical training after finishing high school.   
+    </p>
+    <img src="images/Image-1774355575727.jpg" alt="this is college image" width="600" height="400">
+    <a href="events.html"><p>TO SEE THE UPCOMING EVENT SCHEDULE </p></a>
+    <section>
+            <h2>Upcoming Events</h2>
+            <div class="card-container">
+                              <div class="card" id="card-1">
+                    <h3>Tech Fest 2026</h3>
+                    <p>Date: Nov 10, 2026</p>
+                              <button onclick="changeCardColor('card-1')">Change Card Color</button>
+                   </div>
+                   <div class="card" id="card-2">
+                    <h3>Annual Sports Meet</h3>
+                      <p>Date: Nov 15, 2026</p>
+                    <button onclick="changeCardColor('card-2')">Change Card Color</button>
+                </div>
+                <div class="card" id="card-3">
+                    <h3>Cultural Night</h3>
+                    <p>Date: Nov 20, 2026</p>
+                    <button onclick="changeCardColor('card-3')">Change Card Color</button>
+                </div>
+            </div>
+        </section>
+    
+</body>
+</html>
